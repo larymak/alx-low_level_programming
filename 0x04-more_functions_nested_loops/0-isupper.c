@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-int _upper(int c)
+int _isupper(int c)
 {
   if(c >= 'A' && c <= 'Z')
   {
