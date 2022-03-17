@@ -6,15 +6,12 @@
  */
 int main(void)
 {
-char Array[] = "_putchar\n";
-int al = 0;
-
-while (al < 9)
+int _upper(int c)
 {
-_putchar(Array[al]);
-al++;
-}
-
-return (0);
-
+  if(c >= 'A' && c <= 'Z')
+  {
+    return (1):
+  }
+  else
+    reeturn(0);
 }
