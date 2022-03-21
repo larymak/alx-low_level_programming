@@ -1,20 +1,11 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * _isupper - checks for uppercase character
+ * @letter: the character to be tracked
+ * Return: 1 if c is uppercase, 0 otherwise
  */
-int main(void)
+int _isupper(int letter)
 {
-char Array[] = "_putchar\n";
-int al = 0;
-
-while (al < 9)
-{
-_putchar(Array[al]);
-al++;
-}
-
-return (0);
-
+	return (letter >= 'A' && letter <= 'Z');
 }
