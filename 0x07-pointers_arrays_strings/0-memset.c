@@ -8,12 +8,14 @@
  * Return: pointer to destination memory area
  */
 
-char *_memset(char *dest, char b, unsigned int n)
+char *_memset(char *s, char b, insigned int n)
 {
-    unsigned int i;
+	unsigned int i;
 
-    for (i = 0; i < n; i++)
-        dest[i] = b;
-
-    return (dest);
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		if (i < n)
+			s[i] = b;
+	}
+	return (s);
 }
