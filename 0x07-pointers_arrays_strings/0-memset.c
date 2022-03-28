@@ -8,14 +8,14 @@
  * Return: pointer to destination memory area
  */
 
-char *_memset(char *s, char b, insigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	unsigned int i = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (i < n)
 	{
-		if (i < n)
-			s[i] = b;
+		s[i] = b;
+		i++;
 	}
 	return (s);
 }
