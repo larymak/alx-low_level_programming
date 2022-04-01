@@ -25,4 +25,3 @@ int main(int argc, char **argv)
 	}
 	return (ex);
 }
-© 2022 GitHub, Inc.
